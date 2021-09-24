@@ -127,7 +127,8 @@
 			"-fno-exceptions"
 		],
 		"ldflags" : [
-			"-Wl,-rpath,'$$ORIGIN'"
+			"-Wl,-rpath,'$$ORIGIN'",
+			"-Wl,-rpath,@loader_path/../../../opencv-build/opencv/build/lib"
 		],
 		"xcode_settings": {
 			"OTHER_CFLAGS": [

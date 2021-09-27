@@ -128,7 +128,9 @@
 		],
 		"ldflags" : [
 			"-Wl,-rpath,'$$ORIGIN'",
-			"-Wl,-rpath,@loader_path/../../../opencv-build/opencv/build/lib"
+			"-Wl,-rpath,@loader_path/../../../opencv-build/opencv/build/lib",
+			"-Wl,-rpath,/opt/lib",
+			"-Wl,-rpath,/var/task"
 		],
 		"xcode_settings": {
 			"OTHER_CFLAGS": [
